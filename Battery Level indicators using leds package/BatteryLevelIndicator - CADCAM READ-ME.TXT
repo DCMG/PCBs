@@ -1,0 +1,52 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'BatteryLevelIndicator.pdsprj'.
+CADCAM generated at 6:31:35 AM on Tuesday, September 1, 2020.
+
+File List
+---------
+Top Copper              : BatteryLevelIndicator - CADCAM Top Copper.GBR
+Bottom Copper           : BatteryLevelIndicator - CADCAM Bottom Copper.GBR
+Top Silk Screen         : BatteryLevelIndicator - CADCAM Top Silk Screen.GBR
+Top Solder Resist       : BatteryLevelIndicator - CADCAM Top Solder Resist.GBR
+Bottom Solder Resist    : BatteryLevelIndicator - CADCAM Bottom Solder Resist.GBR
+Mechanical 1            : BatteryLevelIndicator - CADCAM Mechanical 1.GBR
+Top Assembly            : BatteryLevelIndicator - CADCAM Top Assembly.GBR
+Drill, Plated, 1-16     : BatteryLevelIndicator - CADCAM Drill TOP-BOT Plated.GBR
+Netlist                 : BatteryLevelIndicator - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: X2, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=2.032mm                                                         FLASH ComponentPad
+D11	CIRCLE  D=6.35mm                                                          FLASH OtherPad,Unknown
+D12	SQUARE  S=2.032mm                                                         FLASH ComponentPad
+D13	CIRCLE  D=1.524mm                                                         DRAW  Conductor
+D14	CIRCLE  D=1.27mm                                                          DRAW  Conductor
+D15	CIRCLE  D=0.2032mm                                                        DRAW  Material
+D16	CIRCLE  D=2.286mm                                                         FLASH Material
+D17	CIRCLE  D=6.604mm                                                         FLASH Material
+D18	PPAD    W=2.286mm             H=2.286mm             I=0                   FLASH Material
+D19	CIRCLE  D=0.8128mm                                                        DRAW  Material
+D70	CIRCLE  D=0.17221mm                                                       DRAW  Material
+D71	CIRCLE  D=0.10668mm                                                       DRAW  Material
+D20	CIRCLE  D=0.26077mm                                                       DRAW  Material
+D21	CIRCLE  D=0.67219mm                                                       DRAW  Material
+D22	CIRCLE  D=1.016mm                                                         FLASH ComponentDrill
+D23	CIRCLE  D=4mm                                                             FLASH OtherDrill,Unknown
+
+Layer Stackup
+-------------
+Top Solder Resist        : 0.01mm     Resist
+Top Copper               : 0.018mm    Copper
+Core                     : 1.55mm     FR4
+Bottom Copper            : 0.018mm    Copper
+Bottom Solder Resist     : 0.01mm     Resist
+
+
+[END OF FILE]
